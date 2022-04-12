@@ -128,3 +128,47 @@ body {
     margin-top: 0;
     font-weight: bold;
 }
+/* Fourth Section */
+
+.fourth {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+}
+.call-box {
+    background-color: #3882f6;
+    align-self: center;
+    width: 750px;
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+}
+.call-text {
+    color: #f9faf8;
+}
+.call,.call-p {
+    margin: 0;
+}
+
+.call-button {
+    display: flex;
+    align-items: center;
+}
+
+.button-call {
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    font-weight: bold;
+    height: 25px;
+    width: 100px;
+    
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 50px, 0;
+}
