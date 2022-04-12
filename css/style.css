@@ -4,6 +4,7 @@ body {
     font-family:Roboto, Geneva, Tahoma, sans-serif;
     flex-direction: column;
 }
+/* First Section */
 .first {
     color: #f9faf8;
     background-color: #1f2937;
@@ -61,4 +62,37 @@ body {
     width: 125px;
     font-weight: bold;
     align-self: flex-start;
+}
+/* Second Section */
+.second {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
+.second-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    align-self: center;
+}
+
+.staff {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 55px;
+}
+
+.employee-card {
+    width: 200px;
+}
+
+.employee {
+    height: 200px;
+    width: auto;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+.employee-p {
+    text-align: center;
 }
